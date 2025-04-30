@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 30px;
+    /* display: grid; */
+    justify-items: center;
+    /* align-items: center; */
+    background-color: antiquewhite;
+    color: #57585d;
+    font-weight: bold;
+}
+.container{
+    margin-top: 20px;
+    background-color: #f0f1f5;
+    height: 700px;
+    width: 410px;
+    border-radius: 20px;
+}
+.display {
+    font-size: 60px;
+    text-align: right;
+    height: 190px;
+    width: 400px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+.button {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+.calculator{
+    align-items: center;
+    margin-top: 100px;
+    /* box-shadow: 1px 2px 30px black; */
+    justify-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    text-align: center;
+}
+span {
+    width: 400px;
+}
+
+.result {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #57585d;
+}
+.operation {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #b2b2bc;
+}
+
+button {
+    padding: 30px;
+    font-size: 12px;
+    background-color: white;
+    color: 57585d;
+    border: none;
+    border-radius: 90px;
+}
+
+.a {
+    background-color: #dfe0e6;
+}
+
+.b {
+    background-color: #b2b2bc;
+}
+
+.c {
+    background-color: #f85769;
+}
+
+
+/*
+#f0f1f5 primary
+#fffff bg number
+#57585d number
+#dfe0e6 btn atas 3
+#b2b2bc btn kanan 4
+#f85769 btn kanan bawah
+#f7951e rigth button
+*/
