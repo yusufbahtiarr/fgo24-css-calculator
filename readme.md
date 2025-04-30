@@ -4,7 +4,7 @@
 Project ini merupakan latihan CSS dalam membangun website. Saat ini kita membangun website calculator dalam menerapkan dispaly Grid. Tujuannya adalah untuk membiasakan diri dengan alur kerja pengembangan perangkat lunak.
 
 ## Preview
-![Preview](img.jpg)
+![Preview](img.png)
 
 ## How to run this Project
 
